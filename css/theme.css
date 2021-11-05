@@ -431,12 +431,18 @@ pre {
 		width: 100%;
 		height : 550px;
 	}
+	#attachFile {
+		height: 0px;
+	}
 }
 
 @media (max-width: 767px) {
 	#header .header-nav-top .nav > li.nav-item-left-border-remove.d-none {
 		margin-left: 0;
 		padding-left: 0;
+	}
+	#attachFile {
+		height: 0px;
 	}
 
 	#header .header-nav-top .nav > li.nav-item-right-border-remove.d-none {
