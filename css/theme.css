@@ -427,6 +427,10 @@ pre {
 		margin-left: 0;
 		padding-left: 0;
 	}
+	#banner {
+		width: 100%;
+		height : 550px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -466,6 +470,10 @@ pre {
 
 	#header .header-nav-top .nav > li.nav-item-right-border.nav-item-right-border-md-show:after {
 		content: '';
+	}
+	#banner {
+		width: 800px;
+		height : 1350px;
 	}
 }
 
