@@ -443,6 +443,7 @@ pre {
 	}
 	#attachFile {
 		height: 0px;
+		opacity: 0;
 	}
 
 	#header .header-nav-top .nav > li.nav-item-right-border-remove.d-none {
