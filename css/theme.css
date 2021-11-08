@@ -434,6 +434,9 @@ pre {
 	#attachFile {
 		height: 0px;
 	}
+	#mainDiv {
+		font-size: 15px;
+	}
 }
 
 @media (max-width: 767px) {
