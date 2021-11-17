@@ -481,13 +481,6 @@ pre {
 		content: '';
 	}
 	
-	#big {
-		visibility: hidden;
-	}
-	
-	#samll {
-		visibility: visible;
-	}
 }
 
 @media (min-width: 768px) {
@@ -506,13 +499,7 @@ pre {
 		height: 3000px;
 	}
 	
-	#big {
-		visibility: hidden;
-	}
 	
-	#samll {
-		visibility: visible;
-	}
 }
 
 @media (min-width: 992px) {
@@ -533,13 +520,7 @@ pre {
 		height: 3000px;
 	}
 	
-	#big {
-		visibility: hidden;
-	}
 	
-	#samll {
-		visibility: visible;
-	}
 }
 
 @media (min-width: 1200px) {
@@ -555,16 +536,9 @@ pre {
 		height: 3500px;
 	}
 	
-	#big {
-		visibility: visible;
-	}
-	
-	#samll {
-		visibility: hidden;
-	}
 	
 	#banner {
-		width: 800px;
+		width: 1000px;
 		height : 1400px;
 	}
 }
@@ -1371,6 +1345,8 @@ html:not(.boxed) #header.header-floating-bar .header-nav-main nav > ul > li.drop
 		padding-right: 0px;
 		padding-left: 30px;
 	}
+	
+	
 }
 
 html:not(.boxed) #header.header-full-width .header-container {
