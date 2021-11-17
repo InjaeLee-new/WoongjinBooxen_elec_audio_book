@@ -480,6 +480,14 @@ pre {
 	#header .header-nav-top .nav > li.nav-item-right-border.nav-item-right-border-sm-show:after {
 		content: '';
 	}
+	
+	#big {
+		visibility: hidden;
+	}
+	
+	#samll {
+		visibility: visible;
+	}
 }
 
 @media (min-width: 768px) {
@@ -496,6 +504,14 @@ pre {
 	}
 	#nia21-html-section {
 		height: 3000px;
+	}
+	
+	#big {
+		visibility: hidden;
+	}
+	
+	#samll {
+		visibility: visible;
 	}
 }
 
@@ -516,6 +532,14 @@ pre {
 	#nia21-html-section {
 		height: 3000px;
 	}
+	
+	#big {
+		visibility: hidden;
+	}
+	
+	#samll {
+		visibility: visible;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -529,6 +553,14 @@ pre {
 	
 	#nia21-html-section {
 		height: 3500px;
+	}
+	
+	#big {
+		visibility: visible;
+	}
+	
+	#samll {
+		visibility: hidden;
 	}
 	
 	#banner {
